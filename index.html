@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <title>My Portfolio</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Saba Khan</title>
+</head>
+
+<body>
+
+    <div class="start">
+        <div class="text">
+            <h2>SABA KHAN</h2>
+            <h2>SABA KHAN</h2>
+            <h2>SABA KHAN</h2>
+            <p>SECOND YEAR COMPUTING STUDENT</p>
+            <a href="portfolio.html"><button class="down"> WEBSITE <i class="fa fa-angle-double-right"></i></button></a>
+            <p style="font-size: 5px;"></p>
+            <button id="cv" class="cv"> My CV <i class="fa fa-file-o"></i></button>
+            <div id="cvModal" class="cvModal">
+                <embed src="myCV.pdf" frameborder="0" height="90%"width="60%">
+            </div>
+
+        </div>
+    </div>
+    
+    <div id="about">
+
+    </div>
+</body>
+
+<script>
+
+    var cvModal = document.getElementById("cvModal");
+    var btn = document.getElementById("cv");
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks the button, open the modal 
+    btn.onclick = function() {
+      cvModal.style.display = "block";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == cvModal) {
+        cvModal.style.display = "block";
+      }
+    }
+    </script>
