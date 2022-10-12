@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<head>
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+  <nav id="side" class="sidebar">
+    <br>
+    <i class="fa fa-user-circle-o" style="font-size:150px;"></i>
+    <br>
+    <br>
+    <br>
+    <br>
+    <a onclick="openPage('about')" id="mainPage">About Me</a>
+    <a onclick="openPage('skills')">My Skills</a>
+    <a onclick="openPage('projects')">My Projects</a>
+    <a onclick="openPage('experience')">My Experience</a>
+    <h3 style="margin-top:80%;">T: 07491474475</h3>
+    <h3>@: sabaykhan@hotmail.com</h3>
+    <button><a style="text-decoration: none;" href="myCV.pdf" download>My CV <i class="fa fa-file-o"></i></a></button>
+    <br>
+    <br>
+    <button onclick="darkMode()" >Dark/Light</button>
+  </nav>
+
+  <div id="about" class="main">
+    <h1>Saba Khan</h1>
+    <hr>
+    <p>An enthusiastic student that is eager to add value to a team and seeking a position that provides
+        responsibility and can add to my studies. As a passionate worker with experience in programming, I am
+        hoping to add to my skills and am not afraid to put in the effort to do so. With my experience I have
+        developed skills such as being a reliable and collaborative team member that is friendly, outgoing and
+        respectful.
+    </p>
+    <p> Whilst undertaking my BSc degree in IT for Business I have expanded my talents and practiced my
+        expertise by creating free websites for the community
+    </p>
+    <br>
+
+    <h3>My Interests</h3>
+    <p>As a full time student I mainly spend most of my free time helping to tutor family and friends in Maths, Science and Compuster Science</p>
+    <p style="padding:0 75px ;">I also spent every Sunday during term time to be a Scouts Volunteer and help the kids in my community. 
+      As a volunteer I also update our scouts and local masjid's website we can be found through the 'My Experience' page</p>
+    <p>Foster Caring...</p>
+
+    <h3>My Degree</h3>
+    <button class="degree">Year 1 modules/projects</button>
+    <div class="years">
+      <ul class="list">
+  	    <li>Software Design: Agile, Scrum and user stories/mapping</li>
+  	    <li>Database Systems: ER diagrams and SQLite</li>
+  	    <li>Intro to Operating Systems, Networks and Cyber Security</li>
+        <li>Business Programming: Annotating a CSV file using Python Pandas</li>
+        <li>Activity Led Learning: Working in a team to create a website using HTML, CSS and JavaScript for the frontend
+           and MySQL AND JQuery for the backend
+        </li>
+        <li>Digital Marketing: ...</li>
+        <li>Business Fundemenatls</li>
+        <li>Business Desicion Making</li>
+      </ul>
+    </div>
+    <button class="degree">Year 2 modules/projects</button>
+    <div class="years">
+      <ul class="list">
+  	    <li>Web Development: ...</li>
+  	    <li>Data Science: ...</li>
+  	    <li>Network Planning and Management: ...</li>
+        <p style="font-size:large;">Second semester</p>
+        <li>Enterpise Project</li>
+        <li>Software Development</li>
+        <li>People and Computing</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="skills" class="main">
+        <h2>My Computing Skills</h2>
+        <div class="skillsBox">
+
+            <div class="skillBar">
+              <div id="Py"> 
+                <span class="skillArea ">Python</span>
+                <span class="percentText ">100%</span>
+              </div>
+            </div>
+          
+            <div class="skillBar">
+                <div id="Py"> 
+                  <span class="skillArea ">HTML5</span>
+                  <span class="percentText ">100%</span>
+                </div>
+            </div>
+
+            <div class="skillBar">
+                <div id="CSS"> 
+                  <span class="skillArea ">CSS3</span>
+                  <span class="percentText ">95%</span>
+                </div>
+            </div>
+
+            <div class="skillBar">
+                <div id="JS"> 
+                  <span class="skillArea ">JavaScript</span>
+                  <span class="percentText ">80%</span>
+                </div>
+            </div>
+
+            <div class="skillBar">
+                <div id="JS"> 
+                  <span class="skillArea ">MySQL/SQLite</span>
+                  <span class="percentText ">80%</span>
+                </div>
+            </div>
+
+            <div class="skillBar">
+                <div id="CSS"> 
+                  <span class="skillArea ">Swift</span>
+                  <span class="percentText ">95%</span>
+                </div>
+            </div>
+
+            <div class="skillBar">
+                <div id="Py"> 
+                  <span class="skillArea ">Microsoft Office</span>
+                  <span class="percentText ">100%</span>
+                </div>
+            </div>
+
+            <div class="skillBar">
+                <div id="PHP"> 
+                  <span class="skillArea ">PHP</span>
+                  <span class="percentText ">25%</span>
+                </div>
+            </div>
+
+            <div class="skillBar">
+                <div id="JQ"> 
+                  <span class="skillArea ">JQuery</span>
+                  <span class="percentText ">15%</span>
+                </div>
+            </div>
+
+            <div class="skillBar">
+                <div id="JS"> 
+                  <span class="skillArea ">R</span>
+                  <span class="percentText ">80%</span>
+                </div>
+            </div>
+
+            <div class="skillBar">
+                <div id="JQ"> 
+                  <span class="skillArea ">Java</span>
+                  <span class="percentText ">15%</span>
+                </div>
+            </div>
+
+            <div class="skillBar">
+                <div id="JQ"> 
+                  <span class="skillArea ">C/C++</span>
+                  <span class="percentText ">15%</span>
+                </div>
+            </div>
+
+        </div>
+  </div>
+
+  <div id="projects" class="main">
+    <h1>Projects</h1>
+    <div class="boxes">
+      <h2>Python & Swift</h2>
+      <p>Some text..</p>
+    </div>
+    <div class="boxes">
+      <h2>Websites</h2>
+      <p>Some text..</p>
+    </div>
+    <div class="boxes">
+      <h2>Coursework</h2>
+      <p>Some text..</p>
+    </div>
+  
+  </div>
+
+  <div id="experience" class="main">
+    <h1>Experiences 2020-2022</h1>
+    <div class="boxes">
+      <h2>Code Camp World</h2>
+      <p style="font-size:x-large;">Taught young children simple block and line coding in order to create a working game.</p>
+      <p style="font-size:x-large;">Week 1:</p>
+
+    
+    </div>
+    <div class="boxes">
+      <h2>InvestIN internship</h2>
+      <p>Some text..</p>
+    </div>
+    <div class="boxes">
+      <h2>MTC Electrical Store</h2>
+      <p>Some text..</p>
+    </div>
+
+  
+  </div>
+
+
+
+</body>
+
+<script>
+
+if( /Android|webOS|iPhone|iPad/i.test(navigator.userAgent) ) {
+    function openNav() {
+        document.getElementById("side").style.width = "250px";
+    }
+    function closeNav() {
+         document.getElementById("side").style.width = "0";
+    }
+    document.getElementByClassName(main).style.margin = "0";
+}
+
+
+function openPage(name) {
+  var i, page;
+  page = document.getElementsByClassName("main");
+  for (i = 0; i < page.length; i++) {
+    page[i].style.display = "none";
+  }
+  document.getElementById(name).style.display = "block";
+}
+
+document.getElementById("mainPage").click();
+
+function darkMode() {
+    var element = document.body;
+    element.classList.toggle("darkMode");
+}
+   
+var degree = document.getElementsByClassName("degree");
+var i;
+for (i = 0; i < degree.length; i++) {
+  degree[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var list = this.nextElementSibling;
+    if (list.style.display === "block") {
+      list.style.display = "none";
+    } else {
+      list.style.display = "block";
+    }
+  });
+}
+
+</script>
