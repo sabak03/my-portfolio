@@ -60,7 +60,7 @@ hr {
 }
 
 p {
-    font-size: 1.3vw;
+    font-size: 50%;
 }
 
 /*.sidebar {
@@ -94,7 +94,7 @@ p {
     padding: 5px;
     padding-bottom: 10px;
     text-decoration: none;
-    font-size: 1.8vw;
+    font-size: 225%;
     color: rgb(255, 255, 255);
     display: block;
     cursor: pointer;
@@ -126,7 +126,7 @@ button:hover {
 
 .main {
     margin-left: 21%; 
-    font-size: 2vw;
+    font-size: 225%;
     padding: 0px 10px;
     z-index: 2;
     display: none;
