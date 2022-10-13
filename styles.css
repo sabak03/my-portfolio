@@ -334,7 +334,7 @@ button:hover {
     transition: opacity 0.5s;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:1000px) {
   .boxes {
     width: 100%;
     padding: 10px;
