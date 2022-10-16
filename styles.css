@@ -254,7 +254,7 @@ button:hover {
 }  
   
 #PHP {
-    width: 25%;
+    width: 50%;
     animation: animatePHP 3s;
     -webkit-animation: animatePHP 3s;
     height: 25px;
@@ -272,7 +272,7 @@ button:hover {
     from {
       width: 10px;}
     to {
-      width: 25%}
+      width: 50%}
 } 
 
 #JQ {
