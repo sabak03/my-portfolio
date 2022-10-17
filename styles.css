@@ -78,7 +78,7 @@ p {
 }*/
 .sidebar {
     height: 100%;
-    width: 25%;
+    width: 20%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -351,5 +351,9 @@ button:hover {
     }
   }
 
-
+  @media screen and (max-width:1500px) {
+    .sidebar {
+      width: 100%;
+    }
+  }
 
