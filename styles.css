@@ -127,6 +127,7 @@ button:hover {
 .contact {
     bottom: 0;
     position: fixed;
+    margin: auto;
 }
 
 .main {
