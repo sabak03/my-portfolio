@@ -348,7 +348,7 @@ button:hover {
     margin-bottom: 2%;
   }
 }
-@media only screen and (max-width: 991px) {
+/*@media only screen and (max-width: 991px) {
     .sidebar {
       display: none;
     }
@@ -357,5 +357,6 @@ button:hover {
         font-size: 225%;
     }
   }
+*/
 
 
