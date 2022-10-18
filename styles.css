@@ -340,22 +340,22 @@ button:hover {
     transition: opacity 0.5s;
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:990px) {
   .boxes {
     width: 100%;
     padding: 10px;
     margin-bottom: 2%;
   }
-}
-@media only screen and (max-width: 991px) {
-    .sidebar {
-      display: none;
-    }
-    .main {
-        margin-left: 0%;
-        font-size: 225%;
-    }
+  .sidebar {
+    display: none;
   }
+  .main {
+      margin-left: 0%;
+      font-size: 225%;
+  }
+
+}
+
 
 
 
