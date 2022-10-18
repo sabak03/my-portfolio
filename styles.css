@@ -124,6 +124,13 @@ button:hover {
 	cursor: pointer;
 }
 
+.contact {
+    bottom: 0;
+    position: fixed;
+    margin: auto;
+    width: 20%;
+}
+
 .main {
     margin-left: 21%; 
     font-size: 225%;
