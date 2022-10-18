@@ -220,16 +220,16 @@
 
 
 
-
-function openPage(name) {
-  var i, page;
-  page = document.getElementsByClassName("main");
-  for (i = 0; i < page.length; i++) {
-    page[i].style.display = "none";
+if (matchMedia('only screen and (min-width:1000px)').matches) { 
+  function openPage(name) {
+    var i, page;
+    page = document.getElementsByClassName("main");
+    for (i = 0; i < page.length; i++) {
+      page[i].style.display = "none";
+    }
+    document.getElementById(name).style.display = "block";
   }
-  document.getElementById(name).style.display = "block";
 }
-
 document.getElementById("mainPage").click();
 
 function darkMode() {
