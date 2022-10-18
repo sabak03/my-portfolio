@@ -128,10 +128,11 @@ button:hover {
     bottom: 0;
     position: fixed;
     margin: auto;
+    width: 20%;
 }
 
 .main {
-    margin-left: 21%; 
+    margin-left: 20%; 
     font-size: 225%;
     padding: 0px 10px;
     z-index: 2;
